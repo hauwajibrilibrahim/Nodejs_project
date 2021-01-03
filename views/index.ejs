@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Nodejs App</title>
+    <link href="/public/assets/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="view">
+      <div class="login-form">
+        <h1>Welcome <%=name%>!</h1>
+        <form action="/logout?_method=DELETE" method="POST">
+          <button type="submit">Log Out</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
